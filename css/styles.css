@@ -11117,7 +11117,9 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding:15rem 0;
+
+  margin: auto;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
@@ -11205,4 +11207,26 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.button {
+  margin-right: 10px; /* Adjust the spacing between the buttons */
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+body{
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+
 }
