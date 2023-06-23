@@ -29,7 +29,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#main">Main</a></li>
                         <li class="nav-item"><a class="nav-link" href="test/examples/index.html">Flights Control</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Flight-Inspection.html">Inspect Flights</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#inspect-flights">Inspect Flights</a></li>
                     </ul>
                 </div>
             </div>
@@ -52,12 +52,99 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="button-container  ">
                     <a class="btn btn-primary button" href="test/examples/index.html">Flights Control</a>
-                    <a class="btn btn-primary button" href="Flight-Inspection.html">Inspect Flights</a>
+                    <a class="btn btn-primary button" href="http://localhost:63342/AIRTRAFFIC_FRONT/Flights-Inspection.html?_ijt=1q6j35ov4bbjl54pu84u23nv86&_ij_reload=RELOAD_ON_SAVE">Inspect Flights</a>
                 </div>
                 </div>
             </div>
         </section>
+        <section id="inspect-flights">
+            <h1>Inspect Available Flights</h1></br>
+            <div>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Airport</th>
+                    <th scope="col">Departure</th>
+                    <th scope="col">Arrival</th>
+                    <th scope="col">Duration</th>
 
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Rabat Airport</td>
+                    <td>Morocco</td>
+                    <td>Canada</td>
+                    <td>24 hour</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>London Airport</td>
+                    <td>London</td>
+                    <td>Italy</td>
+                    <td>10 hours</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Italy Airport</td>
+                    <td>Italy</td>
+                    <td>Spain</td>
+                    <td>9 hours</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Canada Airport</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr><tr>
+                    <th scope="row">5</th>
+                    <td>Spain Airport</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr><tr>
+                    <th scope="row">-</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr><tr>
+                    <th scope="row">-</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr><tr>
+                    <th scope="row">-</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                </tbody>
+            </table>
+</div>
+        </section>
+        <style>
+            #inspect-flights{
+
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-color: white !important;
+            }
+            #inspect-flights table{
+                background-color: white;
+                width: 100%;
+                /*height: 100%;*/
+                margin-top:100px;
+                margin-bottom:100px;
+
+            }
+        </style>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
